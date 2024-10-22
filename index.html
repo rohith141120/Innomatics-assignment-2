@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innomatics Assignment 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class='container1'>
+        <h1 style="text-align: center;">Company Directory Portal</h1>
+        <div class="form">
+            <h2 style="text-align: center; padding: 20px;">Employee Registration Form</h2>
+            <form>
+                <label class="form-headings" for="Full_Name">Full Name:</label>
+                <input type="text" id="Full_Name" />
+                <label class="form-headings" for="Email">Email:</label>
+                <input type="text" id="Email" />
+                <label class="form-headings" for="Department">Department:</label>
+                <select id="Department">
+                    <option>IT</option>
+                    <option>HR</option>
+                    <option>Finance</option>
+                    <option>Marketing</option>
+                </select>
+                <label class="form-headings" for="Employee_ID">Employee ID:</label>
+                <input type="text" id="Employee_ID" />
+                <label class="form-headings" for="Profile_Picture_URL">Profile Picture URL:</label>
+                <input type="text" id="Profile_Picture_URL" />
+                <button style="background-color: #007bff; color: white; border: none;">Register Employee</button>
+            </form>
+        </div>
+        <div class="employee-list">
+            <h1 style="text-align: center;">Employee List</h1>
+            <ol>
+                <li><a href="#">John Doe - john@example.com</a></li>
+                <li><a href="#">Jane Smith - jane@example.com</a></li>
+            </ol>
+        </div>
+        <div class="details">
+            <h1>Employee Details</h1>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Employee ID</th>
+                    <th>Department</th>
+                    <th>Profile Picture</th>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>12345</td>
+                    <td>IT</td>
+                    <td><img src="https://via.placeholder.com/50" alt="John Doe"></td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>67890</td>
+                    <td>HR</td>
+                    <td><img src="https://via.placeholder.com/50" alt="Jane Smith"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="company-details">
+            <h1 style="text-align: center; padding-bottom: 15px;">Company Location</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d452.11506941820574!2d78.38999!3d17.49803!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91f3fdf6bde9%3A0x752db86a6ab3be2a!2sInnomatics%20Research%20Labs!5e1!3m2!1sen!2sin!4v1728008213806!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <br>
+        <br>
+    </div>
+</body>
+</html>

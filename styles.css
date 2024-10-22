@@ -1,0 +1,85 @@
+
+* {
+    margin: 10px;
+}
+.container1 {
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.form {
+    background-color: #e9f5ff;
+    padding: 10px;
+    border: 1px solid lightskyblue;
+    margin: 20px;
+    border-radius: 10px;
+}
+.form-headings {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+}
+input, button, select {
+    width: 98%;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+.employee-list {
+    background-color: #f6f3f0;
+    margin: 20px;
+    padding: 40px 10px 40px 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+li {
+    padding: 10px;
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+}
+.details {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+}
+.details > h1 {
+    padding-bottom: 20px;
+}
+table, tr {
+    font-size: 18px;
+    width: 100%;
+}
+th {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+}
+td {
+    text-align: center;
+    padding: 5px;
+    color: black;
+    border-bottom: 1px solid rgba(46, 46, 46, 0.416);
+}
+td > img {
+    border-radius: 50%;
+}
+.company-details {
+    margin: 20px;
+}
+iframe {
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+}
